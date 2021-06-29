@@ -1,14 +1,39 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "in": [ {
+            "StudyID": "E-MTAB-8483",
+            "StudyTitle": "Single-cell RNA sequencing reveals stromal evolution into LRRC15+ myofibroblasts as a determinant of patient response to cancer immunotherapy",
+            "Dataset_id": "E-MTAB-8483",
+            "Date": "2020-01-01T20:59:20.000Z",
+            "Abstract": "With only a fraction of patients responding to cancer immunotherapy, a better understanding of the entire tumor microenvironment is needed. Using single-cell transcriptomics, we chart the fibroblastic landscape during pancreatic ductal adenocarcinoma (PDAC) progression in animal models. We identify a population of carcinoma-associated fibroblasts (CAF) that are programmed by TGFβ and express the leucine-rich repeat containing 15 (LRRC15) protein. These LRRC15+ CAFs surround tumor islets and are absent from normal pancreatic tissue. The presence of LRRC15+ CAFs in human patients was confirmed in >80,000 single cells from 22 patients with PDAC as well as by using IHC on samples from 70 patients. Furthermore, immunotherapy clinical trials comprising more than 600 patients across six cancer types revealed elevated levels of the LRRC15+ CAF signature correlated with poor response to anti–PD-L1 therapy. This work has important implications for targeting nonimmune elements of the tumor microenvironment to boost responses of patients with cancer to immune checkpoint blockade therapy.",
+            "DataURL": "https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8483/",
+        }, {
+            "StudyID": "DRAYAD_M3238R",
+            "StudyTitle": "Single-cell transcriptomic analysis of tumor-derived fibroblasts and normal tissue-resident fibroblasts reveals fibroblast heterogeneity in breast cancer",
+            "Dataset_id": "DRAYAD_M3238R_4T1",
+            "Date": "NA",
+            "Abstract": "NA",
+            "DataURL": "NA",
+        }, {
+            "StudyID": "DRAYAD_M3238R",
+            "StudyTitle": "Single-cell transcriptomic analysis of tumor-derived fibroblasts and normal tissue-resident fibroblasts reveals fibroblast heterogeneity in breast cancer",
+            "Dataset_id": "DRAYAD_M3238R_MT3_CAF",
+            "Date": "NA",
+            "Abstract": "NA",
+            "DataURL": "NA",
+        }, {
+            "StudyID": "E-MTAB-6149-6653",
+            "StudyTitle": "Phenotype molding of stromal cells in the lung tumor microenvironment",
+            "Dataset_id": "E-MTAB-6149-6653",
+            "Date": "NA",
+            "Abstract": "NA",
+            "DataURL": "NA",
+        }, {
+            "StudyID": "E-MTAB-7311",
+            "StudyTitle": "Single-cell RNA-seq of CD4+ Treg and Tmem cells from different tissues in mouse",
+            "Dataset_id": "E-MTAB-7311",
+            "Date": "NA",
+            "Abstract": "NA",
+            "DataURL": "NA",
+        }
+    ]
 }
