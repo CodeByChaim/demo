@@ -6,7 +6,7 @@
             "Tissue": ["liver"],
             "Disease": [ "cancer 100.0", "liver"],
             "Technology": ["single cell", "RNA-seq", "Illumina HiSeq 2500"],
-			"Species": ["Homo sapiens"],
+            "Species": ["Homo sapiens"],
             "Public/Cgen": "Public",
             "Identifier": "GSE115469",
             "Date": "10/22/2018",
