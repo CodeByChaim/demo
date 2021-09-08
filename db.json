@@ -38,7 +38,6 @@
             "CellType": ["t cells", "20 t cell subsets"],			
             "Tissue": ["colon"],
             "Disease": ["cancer 100.0", "colorectal"],
-            "Technology": {
             "Technology": ["single cell", "RNA-seq", "Illumina HiSeq 4000", "Tcr TRACking"],
             "Public/Cgen": "Public",
             "Identifier": "GSE108989",
