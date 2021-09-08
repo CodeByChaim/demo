@@ -1,70 +1,129 @@
 {
-    "in": [
-        {
-            "GseTitle": "Dissecting the human liver cellular landscape by single cell RNA-seq reveals novel intrahepatic monocyte/ macrophage populations",
-            "CellType": ["monocytes", "macrophages"],
-            "Tissue": ["liver"],
-            "Disease": [ "cancer 100.0", "liver"],
-            "Technology": ["single cell", "RNA-seq", "Illumina HiSeq 2500"],
-            "Species": ["Homo sapiens"],
-            "Public/Cgen": "Public",
-            "Identifier": "GSE115469",
-            "Date": "10/22/2018",
-            "GsmStatistics": "liver 100.0",
-            "Field": "GEO Accession",
-            "Ids": ["200115469", "100016791", "303178786", "303178785", "303178784", "303178783", "303178782"],
-            "Count": "7",
-            "PubmedIDs": "30348985",
-            "GseSummary": "The liver is the largest solid organ in the body and is critical for metabolic and immune functions. However, surprisingly little is known about the cells that make up the human liver and its immune microenvironment. To address this, we mapped the cellular landscape in the human liver using single cell RNA sequencing. We carefully fractionated fragile, fresh hepatic tissue from human livers to obtain viable parenchymal and non-parenchymal cells. Our single cell transcriptomics map reveals 20 discrete cell populations, including a novel description of distinct monocyte/ macrophage populations in the human liver. We present a comprehensive view of the human liver at single cell resolution that outlines new characteristics of resident cells in the liver, and in particular provides a new map of the human hepatic immune microenvironment.",
-            "GseNumOfSamples": "5",
-            "SuppFile": "CSV",
-            "GdsType": "Expression profiling by high throughput sequencing",
-            "GplTitle": "Illumina HiSeq 2500 (Homo sapiens)",
-            "TechType": "high-throughput sequencing",
-            "Contributors": "Sonya MacParland, Gary Bader, Ian McGilvray, Jeff Liu",
-            "Organizations": "University Health Network",
-            "Countries": "Canada",
-            "LibStrategy": "RNA-Seq",
-            "LibraryName": "",
-            "LibrarySource": "TRANSCRIPTOMIC",
-            "LibrarySelection": "cDNA",
-            "LibraryLayout": "PAIRED",
-            "CellPopulations": "",
-            "AmlDiseaseStage": "",
-            "GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469"
-        },
-        {
-            "GseTitle": "Lineage tracking reveals dynamic relationships of T cells in colorectal cancer",
-            "CellType": ["t cells", "20 t cell subsets"],			
-            "Tissue": ["colon"],
-            "Disease": ["cancer 100.0", "colorectal"],
-            "Technology": ["single cell", "RNA-seq", "Illumina HiSeq 4000", "Tcr TRACking"],
-            "Public/Cgen": "Public",
-            "Identifier": "GSE108989",
-            "Date": "10/29/2018",
-            "GsmStatistics": "t cells 100.0",
-            "Species": ["Homo sapiens"],
-            "Field": "GEO Accession",
-            "Ids": ["200108989", "100020301", "303356230", "303356229", "303356228", "303356227", "303356226", "303356225","303356224", "303356223", "303356222","303356221", "303356220", "303356219"],
-            "Count": "14",
-            "PubmedIDs": ["30479382", "31341169", "32286268"],
-            "GseSummary": "T cells are central players in cancer immunotherapy1, yet some of their fundamental properties such as development and migration within tumours remain elusive. The enormous T cell receptor (TCR) repertoire, required for recognising foreign and self-antigens2,3, could serve as lineage tags to track these T cells in tumours4. Here, we obtained transcriptomes of 11,138 single T cells from 12 colorectal cancer (CRC) patients and developed STARTRAC (Single T-cell Analysis by Rna-seq and Tcr TRACking) indices to quantitatively analyse dynamic relationships among 20 identified T cell subsets with distinct functions and clonalities. While both CD8+ effector and ?exhausted? T cells exhibited high clonal expansion, they were independently connected with tumour-resident CD8+ effector memory cells, implicating a TCR-based fate decision. Of the CD4+ T cells, the majority of tumour-infiltrating Tregs showed clonal exclusivity, whereas certain Treg clones were developmentally linked to multiple TH clones. Notably, we identified two IFNG+ TH1-like clusters in tumours, the GZMK+ TEM and CXCL13+ TH1-like clusters, which were associated with distinct IFN-?-regulating transcription factors, EOMES/RUNX3 and BHLHE40, respectively. Only BHLHE40+ CXCL13+ TH1-like cells were preferentially enriched in tumours of microsatellite-instable (MSI) patients, which might explain their favourable response rates to immune-checkpoint blockade. Furthermore, we found IGFLR1 to be highly expressed in both BHLHE40+CXCL13+ TH1-like and CD8+ exhausted T cells and possessed co-stimulatory functions. Our integrated STARTRAC analyses provided a powerful avenue to comprehensively dissect the T cell properties in CRC, which could shed new insights into the dynamic relationships of T cells in other cancers.",
-            "GseNumOfSamples": "12",
-            "SuppFile": "TAB, TXT",
-            "GdsType": "Expression profiling by high throughput sequencing",
-            "GplTitle": "Illumina HiSeq 4000 (Homo sapiens)",
-            "TechType": "high-throughput sequencing",
-            "Contributors": "Yuanyuan Zhang, Zhanlong Shen, Shan Wang, Boxi Kang, Hiroyasu Konno, Xinyi Guo, Xueda Hu, Wenjun Ouyang, Liangtao Zheng, Ranran Gao, Xin Yu, zemin zhang, Julie Huang, Xianwen Ren, Yansen Li, Songyuan Gao, Qiming Zhang, Lei Zhang, Qiao Fang, Yingjiang Ye",
-            "Organizations": "Peking University",
-            "Countries": "China",
-            "LibStrategy": "",
-            "LibraryName": "",
-            "LibrarySource": "",
-            "LibrarySelection": "",
-            "LibraryLayout": "",
-            "CellPopulations": "",
-            "AmlDiseaseStage": "",
-            "GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108989"
-        }
-    ]
+	"in": [
+		{
+			"GseTitle": "Dissecting the human liver cellular landscape by single cell RNA-seq reveals novel intrahepatic monocyte/ macrophage populations",
+			"CellType": [
+				"monocytes",
+				"macrophages"
+			],
+			"Tissue": [
+				"liver"
+			],
+			"Disease": [
+				"cancer 100.0",
+				"liver"
+			],
+			"Technology": [
+				"single cell",
+				"RNA-seq",
+				"Illumina HiSeq 2500"
+			],
+			"Species": [
+				"Homo sapiens"
+			],
+			"Public/Cgen": "Public",
+			"Identifier": "GSE115469",
+			"Date": "10/22/2018",
+			"GsmStatistics": "liver 100.0",
+			"Field": "GEO Accession",
+			"Ids": [
+				"200115469",
+				"100016791",
+				"303178786",
+				"303178785",
+				"303178784",
+				"303178783",
+				"303178782"
+			],
+			"Count": "7",
+			"PubmedIDs": [
+				"30348985"
+			],
+			"GseSummary": "The liver is the largest solid organ in the body and is critical for metabolic and immune functions. However, surprisingly little is known about the cells that make up the human liver and its immune microenvironment. To address this, we mapped the cellular landscape in the human liver using single cell RNA sequencing. We carefully fractionated fragile, fresh hepatic tissue from human livers to obtain viable parenchymal and non-parenchymal cells. Our single cell transcriptomics map reveals 20 discrete cell populations, including a novel description of distinct monocyte/ macrophage populations in the human liver. We present a comprehensive view of the human liver at single cell resolution that outlines new characteristics of resident cells in the liver, and in particular provides a new map of the human hepatic immune microenvironment.",
+			"GseNumOfSamples": "5",
+			"SuppFile": "CSV",
+			"GdsType": "Expression profiling by high throughput sequencing",
+			"GplTitle": "Illumina HiSeq 2500 (Homo sapiens)",
+			"TechType": "high-throughput sequencing",
+			"Contributors": "Sonya MacParland, Gary Bader, Ian McGilvray, Jeff Liu",
+			"Organizations": "University Health Network",
+			"Countries": "Canada",
+			"LibStrategy": "RNA-Seq",
+			"LibraryName": "",
+			"LibrarySource": "TRANSCRIPTOMIC",
+			"LibrarySelection": "cDNA",
+			"LibraryLayout": "PAIRED",
+			"CellPopulations": "",
+			"AmlDiseaseStage": "",
+			"GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469"
+		},
+		{
+			"GseTitle": "Lineage tracking reveals dynamic relationships of T cells in colorectal cancer",
+			"CellType": [
+				"t cells",
+				"20 t cell subsets"
+			],
+			"Tissue": [
+				"colon"
+			],
+			"Disease": [
+				"cancer 100.0",
+				"colorectal"
+			],
+			"Technology": [
+				"single cell",
+				"RNA-seq",
+				"Illumina HiSeq 4000",
+				"Tcr TRACking"
+			],
+			"Species": [
+				"Homo sapiens"
+			],
+			"Public/Cgen": "Public",
+			"Identifier": "GSE108989",
+			"Date": "10/29/2018",
+			"GsmStatistics": "t cells 100.0",
+
+			"Field": "GEO Accession",
+			"Ids": [
+				"200108989",
+				"100020301",
+				"303356230",
+				"303356229",
+				"303356228",
+				"303356227",
+				"303356226",
+				"303356225",
+				"303356224",
+				"303356223",
+				"303356222",
+				"303356221",
+				"303356220",
+				"303356219"
+			],
+			"Count": "14",
+			"PubmedIDs": [
+				"30479382",
+				"31341169",
+				"32286268"
+			],
+			"GseSummary": "T cells are central players in cancer immunotherapy1, yet some of their fundamental properties such as development and migration within tumours remain elusive. The enormous T cell receptor (TCR) repertoire, required for recognising foreign and self-antigens2,3, could serve as lineage tags to track these T cells in tumours4. Here, we obtained transcriptomes of 11,138 single T cells from 12 colorectal cancer (CRC) patients and developed STARTRAC (Single T-cell Analysis by Rna-seq and Tcr TRACking) indices to quantitatively analyse dynamic relationships among 20 identified T cell subsets with distinct functions and clonalities. While both CD8+ effector and ?exhausted? T cells exhibited high clonal expansion, they were independently connected with tumour-resident CD8+ effector memory cells, implicating a TCR-based fate decision. Of the CD4+ T cells, the majority of tumour-infiltrating Tregs showed clonal exclusivity, whereas certain Treg clones were developmentally linked to multiple TH clones. Notably, we identified two IFNG+ TH1-like clusters in tumours, the GZMK+ TEM and CXCL13+ TH1-like clusters, which were associated with distinct IFN-?-regulating transcription factors, EOMES/RUNX3 and BHLHE40, respectively. Only BHLHE40+ CXCL13+ TH1-like cells were preferentially enriched in tumours of microsatellite-instable (MSI) patients, which might explain their favourable response rates to immune-checkpoint blockade. Furthermore, we found IGFLR1 to be highly expressed in both BHLHE40+CXCL13+ TH1-like and CD8+ exhausted T cells and possessed co-stimulatory functions. Our integrated STARTRAC analyses provided a powerful avenue to comprehensively dissect the T cell properties in CRC, which could shed new insights into the dynamic relationships of T cells in other cancers.",
+			"GseNumOfSamples": "12",
+			"SuppFile": "TAB, TXT",
+			"GdsType": "Expression profiling by high throughput sequencing",
+			"GplTitle": "Illumina HiSeq 4000 (Homo sapiens)",
+			"TechType": "high-throughput sequencing",
+			"Contributors": "Yuanyuan Zhang, Zhanlong Shen, Shan Wang, Boxi Kang, Hiroyasu Konno, Xinyi Guo, Xueda Hu, Wenjun Ouyang, Liangtao Zheng, Ranran Gao, Xin Yu, zemin zhang, Julie Huang, Xianwen Ren, Yansen Li, Songyuan Gao, Qiming Zhang, Lei Zhang, Qiao Fang, Yingjiang Ye",
+			"Organizations": "Peking University",
+			"Countries": "China",
+			"LibStrategy": "",
+			"LibraryName": "",
+			"LibrarySource": "",
+			"LibrarySelection": "",
+			"LibraryLayout": "",
+			"CellPopulations": "",
+			"AmlDiseaseStage": "",
+			"GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108989"
+		}
+	]
 }
