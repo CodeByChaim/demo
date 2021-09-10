@@ -1,129 +1,908 @@
 {
-	"in": [
-		{
-			"GseTitle": "Dissecting the human liver cellular landscape by single cell RNA-seq reveals novel intrahepatic monocyte/ macrophage populations",
-			"CellType": [
-				"monocytes",
-				"macrophages"
-			],
-			"Tissue": [
-				"liver"
-			],
-			"Disease": [
-				"cancer 100.0",
-				"liver"
-			],
-			"Technology": [
-				"single cell",
-				"RNA-seq",
-				"Illumina HiSeq 2500"
-			],
-			"Species": [
-				"Homo sapiens"
-			],
-			"Public/Cgen": "Public",
-			"Identifier": "GSE115469",
-			"Date": "10/22/2018",
-			"GsmStatistics": "liver 100.0",
-			"Field": "GEO Accession",
-			"Ids": [
-				"200115469",
-				"100016791",
-				"303178786",
-				"303178785",
-				"303178784",
-				"303178783",
-				"303178782"
-			],
-			"Count": "7",
-			"PubmedIDs": [
-				"30348985"
-			],
-			"GseSummary": "The liver is the largest solid organ in the body and is critical for metabolic and immune functions. However, surprisingly little is known about the cells that make up the human liver and its immune microenvironment. To address this, we mapped the cellular landscape in the human liver using single cell RNA sequencing. We carefully fractionated fragile, fresh hepatic tissue from human livers to obtain viable parenchymal and non-parenchymal cells. Our single cell transcriptomics map reveals 20 discrete cell populations, including a novel description of distinct monocyte/ macrophage populations in the human liver. We present a comprehensive view of the human liver at single cell resolution that outlines new characteristics of resident cells in the liver, and in particular provides a new map of the human hepatic immune microenvironment.",
-			"GseNumOfSamples": "5",
-			"SuppFile": "CSV",
-			"GdsType": "Expression profiling by high throughput sequencing",
-			"GplTitle": "Illumina HiSeq 2500 (Homo sapiens)",
-			"TechType": "high-throughput sequencing",
-			"Contributors": "Sonya MacParland, Gary Bader, Ian McGilvray, Jeff Liu",
-			"Organizations": "University Health Network",
-			"Countries": "Canada",
-			"LibStrategy": "RNA-Seq",
-			"LibraryName": "",
-			"LibrarySource": "TRANSCRIPTOMIC",
-			"LibrarySelection": "cDNA",
-			"LibraryLayout": "PAIRED",
-			"CellPopulations": "",
-			"AmlDiseaseStage": "",
-			"GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469"
-		},
-		{
-			"GseTitle": "Lineage tracking reveals dynamic relationships of T cells in colorectal cancer",
-			"CellType": [
-				"t cells",
-				"20 t cell subsets"
-			],
-			"Tissue": [
-				"colon"
-			],
-			"Disease": [
-				"cancer 100.0",
-				"colorectal"
-			],
-			"Technology": [
-				"single cell",
-				"RNA-seq",
-				"Illumina HiSeq 4000",
-				"Tcr TRACking"
-			],
-			"Species": [
-				"Homo sapiens"
-			],
-			"Public/Cgen": "Public",
-			"Identifier": "GSE108989",
-			"Date": "10/29/2018",
-			"GsmStatistics": "t cells 100.0",
-
-			"Field": "GEO Accession",
-			"Ids": [
-				"200108989",
-				"100020301",
-				"303356230",
-				"303356229",
-				"303356228",
-				"303356227",
-				"303356226",
-				"303356225",
-				"303356224",
-				"303356223",
-				"303356222",
-				"303356221",
-				"303356220",
-				"303356219"
-			],
-			"Count": "14",
-			"PubmedIDs": [
-				"30479382",
-				"31341169",
-				"32286268"
-			],
-			"GseSummary": "T cells are central players in cancer immunotherapy1, yet some of their fundamental properties such as development and migration within tumours remain elusive. The enormous T cell receptor (TCR) repertoire, required for recognising foreign and self-antigens2,3, could serve as lineage tags to track these T cells in tumours4. Here, we obtained transcriptomes of 11,138 single T cells from 12 colorectal cancer (CRC) patients and developed STARTRAC (Single T-cell Analysis by Rna-seq and Tcr TRACking) indices to quantitatively analyse dynamic relationships among 20 identified T cell subsets with distinct functions and clonalities. While both CD8+ effector and ?exhausted? T cells exhibited high clonal expansion, they were independently connected with tumour-resident CD8+ effector memory cells, implicating a TCR-based fate decision. Of the CD4+ T cells, the majority of tumour-infiltrating Tregs showed clonal exclusivity, whereas certain Treg clones were developmentally linked to multiple TH clones. Notably, we identified two IFNG+ TH1-like clusters in tumours, the GZMK+ TEM and CXCL13+ TH1-like clusters, which were associated with distinct IFN-?-regulating transcription factors, EOMES/RUNX3 and BHLHE40, respectively. Only BHLHE40+ CXCL13+ TH1-like cells were preferentially enriched in tumours of microsatellite-instable (MSI) patients, which might explain their favourable response rates to immune-checkpoint blockade. Furthermore, we found IGFLR1 to be highly expressed in both BHLHE40+CXCL13+ TH1-like and CD8+ exhausted T cells and possessed co-stimulatory functions. Our integrated STARTRAC analyses provided a powerful avenue to comprehensively dissect the T cell properties in CRC, which could shed new insights into the dynamic relationships of T cells in other cancers.",
-			"GseNumOfSamples": "12",
-			"SuppFile": "TAB, TXT",
-			"GdsType": "Expression profiling by high throughput sequencing",
-			"GplTitle": "Illumina HiSeq 4000 (Homo sapiens)",
-			"TechType": "high-throughput sequencing",
-			"Contributors": "Yuanyuan Zhang, Zhanlong Shen, Shan Wang, Boxi Kang, Hiroyasu Konno, Xinyi Guo, Xueda Hu, Wenjun Ouyang, Liangtao Zheng, Ranran Gao, Xin Yu, zemin zhang, Julie Huang, Xianwen Ren, Yansen Li, Songyuan Gao, Qiming Zhang, Lei Zhang, Qiao Fang, Yingjiang Ye",
-			"Organizations": "Peking University",
-			"Countries": "China",
-			"LibStrategy": "",
-			"LibraryName": "",
-			"LibrarySource": "",
-			"LibrarySelection": "",
-			"LibraryLayout": "",
-			"CellPopulations": "",
-			"AmlDiseaseStage": "",
-			"GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108989"
-		}
-	]
+    "in": [
+        {
+            "GseTitle": "Dissecting the human liver cellular landscape by single cell RNA-seq reveals novel intrahepatic monocyte/ macrophage populations",
+            "Tissue": [
+                "liver"
+            ],
+            "Disease": [
+                "cancer - liver"
+            ],
+            "CellType": [],
+            "NumOfCells": "8439",
+            "Technology": [
+                "single cell - RNA-seq",
+                "single cell - Illumina HiSeq 2500"
+            ],
+            "Public/Cgen": "Public",
+            "Identifier": "GSE115469",
+            "Date": "10/22/2018",
+            "GsmStatistics": [
+                "liver - 100.0"
+            ],
+            "Species": [
+                "Homo sapiens"
+            ],
+            "Field": "GEO Accession",
+            "Ids": [
+                "200115469",
+                "100016791",
+                "303178786",
+                "303178785",
+                "303178784",
+                "303178783",
+                "303178782"
+            ],
+            "Count": "7",
+            "PubmedIDs": [
+                "30348985"
+            ],
+            "GseSummary": "The liver is the largest solid organ in the body and is critical for metabolic and immune functions. However, surprisingly little is known about the cells that make up the human liver and its immune microenvironment. To address this, we mapped the cellular landscape in the human liver using single cell RNA sequencing. We carefully fractionated fragile, fresh hepatic tissue from human livers to obtain viable parenchymal and non-parenchymal cells. Our single cell transcriptomics map reveals 20 discrete cell populations, including a novel description of distinct monocyte/ macrophage populations in the human liver. We present a comprehensive view of the human liver at single cell resolution that outlines new characteristics of resident cells in the liver, and in particular provides a new map of the human hepatic immune microenvironment.",
+            "GseNumOfSamples": "5",
+            "SuppFile": "CSV",
+            "GdsType": "Expression profiling by high throughput sequencing",
+            "GplTitle": "Illumina HiSeq 2500 (Homo sapiens)",
+            "TechType": "high-throughput sequencing",
+            "Contributors": "Sonya MacParland, Gary Bader, Ian McGilvray, Jeff Liu",
+            "Organizations": "University Health Network",
+            "Countries": "Canada",
+            "LibStrategy": "RNA-Seq",
+            "LibraryName": "",
+            "LibrarySource": "TRANSCRIPTOMIC",
+            "LibrarySelection": "cDNA",
+            "LibraryLayout": "PAIRED",
+            "CellPopulations": "",
+            "AmlDiseaseStage": "",
+            "GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469"
+        },
+        {
+            "GseTitle": "Lineage tracking reveals dynamic relationships of T cells in colorectal cancer",
+            "Tissue": [
+                "colon"
+            ],
+            "Disease": [
+                "cancer - colorectal"
+            ],
+            "CellType": [
+                "t cells - 20 t cell subsets"
+            ],
+            "NumOfCells": "8530",
+            "Technology": [
+                "single cell - RNA-seq",
+                "single cell - Illumina HiSeq 4000"
+            ],
+            "Public/Cgen": "Public",
+            "Identifier": "GSE108989",
+            "Date": "10/29/2018",
+            "GsmStatistics": [
+                "t cells - 100.0"
+            ],
+            "Species": [
+                "Homo sapiens"
+            ],
+            "Field": "GEO Accession",
+            "Ids": [
+                "200108989",
+                "100020301",
+                "303356230",
+                "303356229",
+                "303356228",
+                "303356227",
+                "303356226",
+                "303356225",
+                "303356224",
+                "303356223",
+                "303356222",
+                "303356221",
+                "303356220",
+                "303356219"
+            ],
+            "Count": "14",
+            "PubmedIDs": [
+                "30479382",
+                "31341169",
+                "32286268"
+            ],
+            "GseSummary": "T cells are central players in cancer immunotherapy1, yet some of their fundamental properties such as development and migration within tumours remain elusive. The enormous T cell receptor (TCR) repertoire, required for recognising foreign and self-antigens2,3, could serve as lineage tags to track these T cells in tumours4. Here, we obtained transcriptomes of 11,138 single T cells from 12 colorectal cancer (CRC) patients and developed STARTRAC (Single T-cell Analysis by Rna-seq and Tcr TRACking) indices to quantitatively analyse dynamic relationships among 20 identified T cell subsets with distinct functions and clonalities. While both CD8+ effector and ?exhausted? T cells exhibited high clonal expansion, they were independently connected with tumour-resident CD8+ effector memory cells, implicating a TCR-based fate decision. Of the CD4+ T cells, the majority of tumour-infiltrating Tregs showed clonal exclusivity, whereas certain Treg clones were developmentally linked to multiple TH clones. Notably, we identified two IFNG+ TH1-like clusters in tumours, the GZMK+ TEM and CXCL13+ TH1-like clusters, which were associated with distinct IFN-?-regulating transcription factors, EOMES/RUNX3 and BHLHE40, respectively. Only BHLHE40+ CXCL13+ TH1-like cells were preferentially enriched in tumours of microsatellite-instable (MSI) patients, which might explain their favourable response rates to immune-checkpoint blockade. Furthermore, we found IGFLR1 to be highly expressed in both BHLHE40+CXCL13+ TH1-like and CD8+ exhausted T cells and possessed co-stimulatory functions. Our integrated STARTRAC analyses provided a powerful avenue to comprehensively dissect the T cell properties in CRC, which could shed new insights into the dynamic relationships of T cells in other cancers.",
+            "GseNumOfSamples": "12",
+            "SuppFile": "TAB, TXT",
+            "GdsType": "Expression profiling by high throughput sequencing",
+            "GplTitle": "Illumina HiSeq 4000 (Homo sapiens)",
+            "TechType": "high-throughput sequencing",
+            "Contributors": "Yuanyuan Zhang, Zhanlong Shen, Shan Wang, Boxi Kang, Hiroyasu Konno, Xinyi Guo, Xueda Hu, Wenjun Ouyang, Liangtao Zheng, Ranran Gao, Xin Yu, zemin zhang, Julie Huang, Xianwen Ren, Yansen Li, Songyuan Gao, Qiming Zhang, Lei Zhang, Qiao Fang, Yingjiang Ye",
+            "Organizations": "Peking University",
+            "Countries": "China",
+            "LibStrategy": "",
+            "LibraryName": "",
+            "LibrarySource": "",
+            "LibrarySelection": "",
+            "LibraryLayout": "",
+            "CellPopulations": "",
+            "AmlDiseaseStage": "",
+            "GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108989"
+        },
+        {
+            "GseTitle": "Single-cell RNA-seq of six thousand purified CD3+ T cells from human primary TNBCs",
+            "Tissue": [
+                "breast"
+            ],
+            "Disease": [
+                "cancer - breast"
+            ],
+            "CellType": [
+                "t cells - cd3+"
+            ],
+            "NumOfCells": "6302",
+            "Technology": [
+                "single cell - RNA-seq",
+                "single cell - Illumina HiSeq 2500"
+            ],
+            "Public/Cgen": "Public",
+            "Identifier": "GSE110686",
+            "Date": "6/24/2018",
+            "GsmStatistics": [
+                "primary tumour - 100.0"
+            ],
+            "Species": [
+                "Homo sapiens"
+            ],
+            "Field": "GEO Accession",
+            "Ids": [
+                "200110686",
+                "100016791",
+                "303011854",
+                "303011853"
+            ],
+            "Count": "4",
+            "PubmedIDs": [
+                "29942092"
+            ],
+            "GseSummary": "CD3+ T cells were isolated by FACS from primary tumour tissues of two triple-negative breast cancer patients. Sorted cells were submitted to a 10X Genomics Chromium System for single cell capture. cDNA synthesis and library preparation were done according to the protocol supplied by the manufacturer. Libraries were sequenced on an Illumina HiSeq 2500 High Output Mode using V4 clustering and sequencing chemistry to achieve 100 bp paired-end reads.",
+            "GseNumOfSamples": "2",
+            "SuppFile": "MTX, TSV",
+            "GdsType": "Expression profiling by high throughput sequencing",
+            "GplTitle": "Illumina HiSeq 2500 (Homo sapiens)",
+            "TechType": "high-throughput sequencing",
+            "Contributors": "Terence Speed, Sherene Loi, Chengzhong Ye, Agus Salim, Peter Savas",
+            "Organizations": "Walter and Eliza Hall Institute of Medical Research",
+            "Countries": "Australia",
+            "LibStrategy": "RNA-Seq",
+            "LibraryName": "",
+            "LibrarySource": "TRANSCRIPTOMIC",
+            "LibrarySelection": "cDNA",
+            "LibraryLayout": "PAIRED",
+            "CellPopulations": "",
+            "AmlDiseaseStage": "",
+            "GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110686"
+        },
+        {
+            "GseTitle": "Single-cell RNA sequencing of lymph node stromal cells reveals niche-associated heterogeneity",
+            "Tissue": [
+                "lymphoid"
+            ],
+            "Disease": [
+                "cancer - stromal cells"
+            ],
+            "CellType": [
+                "lymph node - peripheral",
+                "stromal cells - non-endothelial"
+            ],
+            "NumOfCells": "14243",
+            "Technology": [
+                "single cell - RNA-seq",
+                "single cell - Illumina HiSeq 4000"
+            ],
+            "Public/Cgen": "Public",
+            "Identifier": "GSE112903",
+            "Date": "5/10/2018",
+            "GsmStatistics": [
+                "peripheral lymph node non-endothelial stromal cells - 100.0"
+            ],
+            "Species": [
+                "Mus musculus"
+            ],
+            "Field": "GEO Accession",
+            "Ids": [
+                "200112903",
+                "100021103",
+                "303090974",
+                "303090973"
+            ],
+            "Count": "4",
+            "PubmedIDs": [
+                "29752062"
+            ],
+            "GseSummary": "Stromal cells (SCs) establish the compartmentalization of lymphoid tissues critical to the immune response. However, the full diversity of lymph node (LN) SCs remains undefined. Using droplet-based single-cell RNA sequencing we identified 9 peripheral LNs non-endothelial SC subsets. Included are the established subsets Ccl19hi T-zone reticular cells (TRCs), marginal reticular cells, follicular dendritic cells (FDCs) and perivascular cells. We also identified Ccl19lo TRCs, likely including cholesterol-25-hydroxylase+ cells located at the T-zone perimeter, Cxcl9+ TRCs in the T-zone and interfollicular region, CD34+ SCs in the capsule and medullary vessel adventitia, indolethylamine N-methyltransferase+ SCs in the medullary cords and Nr4a1+ SCs in several niches. These data help define how transcriptionally distinct LN SCs support niche-restricted immune functions and they provide evidence that many SCs are in an activated state.",
+            "GseNumOfSamples": "2",
+            "SuppFile": "TXT, XLSX",
+            "GdsType": "Expression profiling by high throughput sequencing",
+            "GplTitle": "Illumina HiSeq 4000 (Mus musculus)",
+            "TechType": "high-throughput sequencing",
+            "Contributors": "Jason Cyster, Lauren Rodda",
+            "Organizations": "University of California, San Francisco",
+            "Countries": "USA",
+            "LibStrategy": "RNA-Seq",
+            "LibraryName": "",
+            "LibrarySource": "TRANSCRIPTOMIC",
+            "LibrarySelection": "cDNA",
+            "LibraryLayout": "SINGLE",
+            "CellPopulations": "",
+            "AmlDiseaseStage": "",
+            "GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112903"
+        },
+        {
+            "GseTitle": "Single-cell RNA-seq of melanoma ecosystems reveals sources of T cells exclusion linked to immunotherapy clinical outcomes",
+            "Tissue": [
+                "skin"
+            ],
+            "Disease": [
+                "cancer - melanoma"
+            ],
+            "CellType": [],
+            "NumOfCells": "7186",
+            "Technology": [
+                "single cell - Illumina NextSeq 500",
+                "single cell - RNA-seq"
+            ],
+            "Public/Cgen": "Public",
+            "Identifier": "GSE115978",
+            "Date": "11/1/2018",
+            "GsmStatistics": [
+                "melanoma tumor - 100.0"
+            ],
+            "Species": [
+                "Homo sapiens"
+            ],
+            "Field": "GEO Accession",
+            "Ids": [
+                "200115978",
+                "100018573",
+                "303204300",
+                "303204299",
+                "303204298",
+                "303204297",
+                "303204296",
+                "303204295",
+                "303204294",
+                "303204293",
+                "303204292",
+                "303204291",
+                "303204290",
+                "303204289",
+                "303204288",
+                "303204287",
+                "303204286",
+                "303204285",
+                "303204284",
+                "303204283"
+            ],
+            "Count": "7188",
+            "PubmedIDs": [
+                "30388455"
+            ],
+            "GseSummary": "Immune checkpoint inhibitors (ICI) produce durable responses in some melanoma patients, but many patients derive no clinical benefit, and the molecular underpinnings of such resistance remain elusive. Here, we leveraged single-cell RNA-seq (scRNA-seq) from 31 melanoma tumors and novel computational methods to interrogate malignant cell states that promote immune evasion. We identified a resistance program expressed by malignant cells that is associated with T cell exclusion and immune evasion. The program is present prior to immunotherapy, characterizes cold niches, and predicts clinical responses to anti-PD-1 therapy in an independent cohort of 112 melanoma patients. CDK4/6-inhibition represses this program in individual malignant cells, induces senescence, and reduces melanoma tumor outgrowth in a mouse model when given in combination with immunotherapy. Our study provides a high-resolution landscape of ICI resistant cell states, identifies clinically predictive signatures, and forms a basis for the development of novel therapeutic strategies that could overcome immunotherapy resistance.",
+            "GseNumOfSamples": "7186",
+            "SuppFile": "CSV",
+            "GdsType": "Expression profiling by high throughput sequencing",
+            "GplTitle": "Illumina NextSeq 500 (Homo sapiens)",
+            "TechType": "high-throughput sequencing",
+            "Contributors": "Bokang Rabasha, Marie Forget, Keith Flaherty, Alex Shalek, Aviv Regev, F Hodi, Mei Su, Claire Margolais, Bruce Johnson, Parin Shah, Chantale Bernatchez, Christopher Rodman, Elizabeth Buchbinder, Meenhard Herlyn, Bastian Schilling, Orr Ashenberg, Benjamin Izar, Asaf Rotem, Shu Wang, Ryan Sullivan, Adrienne Luoma, Patrick Hwu, Gao Zhang, Johannes Melms, Jia Lin, Shaolin Mei, David Liu, Israel Ca\u00c3\u00b1adas, Eliezer Van Allen, Dirk Schadendorf, Benchun Miao, Abhay Kanodia, Peter Sorger, Kai Wucherpfennig, Shruti Malu, David Barbie, Patrick Ott, Rohit Thummalapalli, Russell Jenkins, Itay Tirosh, Riz Haq, Tabea Moll, Adam Cartwright, Monika Kowalczyk, Levi Garraway, Charles Yoon, Dennie Frederick, Livnat Jerby-Arnon, Orit Rozenblatt-Rosen, Rachel Leeson, G Boland, Michael Cuoco",
+            "Organizations": "Broad Institute",
+            "Countries": "USA",
+            "LibStrategy": "",
+            "LibraryName": "",
+            "LibrarySource": "",
+            "LibrarySelection": "",
+            "LibraryLayout": "",
+            "CellPopulations": "",
+            "AmlDiseaseStage": "",
+            "GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115978"
+        },
+        {
+            "GseTitle": "Molecular Signatures of Multiple Myeloma Progression through Single Cell RNA-Seq",
+            "Tissue": [
+                "blood"
+            ],
+            "Disease": [
+                "cancer - plasma cells"
+            ],
+            "CellType": [],
+            "NumOfCells": "597",
+            "Technology": [
+                "single cell - RNA-seq",
+                "single cell - Illumina HiSeq 2500"
+            ],
+            "Public/Cgen": "Public",
+            "Identifier": "GSE118900",
+            "Date": "11/17/2018",
+            "GsmStatistics": [
+                "plasma cells from perpheral blood - 100.0"
+            ],
+            "Species": [
+                "Homo sapiens"
+            ],
+            "Field": "GEO Accession",
+            "Ids": [
+                "200118900",
+                "100016791",
+                "303351124",
+                "303351123",
+                "303351122",
+                "303351121",
+                "303351120",
+                "303351119",
+                "303351118",
+                "303351117",
+                "303351116",
+                "303351115",
+                "303351114",
+                "303351113",
+                "303351112",
+                "303351111",
+                "303351110",
+                "303351109",
+                "303351108",
+                "303351107"
+            ],
+            "Count": "599",
+            "PubmedIDs": [
+                "30607001"
+            ],
+            "GseSummary": "Multiple myeloma (MM) is a malignant plasma cell disorder with well-defined clonal genetic/cytogenetic abnormalities. However, cellular heterogeneity is a key factor in MM\u2019s progression, therapeutic decision, and response to treatment. Single cell whole transcriptome profiling (scRNA-Seq) offers an opportunity to dissect this molecular heterogeneity during MM progression to better understand the disease and guide rational therapy. Here, we examined 597 CD138 positive cells from 15 patients at different stages of MM progression using scRNA-Seq. We selected 790 genes based on a Coefficient of Variation (CV) approach which organized cells into four clusters (L1-L4) based on unsupervised clustering. Plasma cells from each patient contained a mixed population of plasma cells at different state of aggressiveness based on gene expression signature reflecting the inter-cellular heterogeneous nature of MM. Cells in the L1 group is characterized by low level expression of genes involved in the oxidative phosphorylation, Myc targets, and mTORC1 signaling pathway having most cells from MGUS patients (p < 1.2x10-14). In contrast, low level of these genes in L1 group increased progressively and were the highest in the L4 group containing only cells from high-risk MM patients with t(4;14) translocations. Furthermore, 44 genes consistently overexpressed by pair-wised comparisons of the four groups strongly associated with a reduced overall survival in MM patients (APEX trial, p < 0.0001; Hazard Ratio (HR), 1.83; 95% CI, 1.33 to 2.52), particularly those in the bortezomib treated group (p < 0.0001; HR, 2.00; 95% CI, 1.39 to 2.89). No survival significance was observed for the dexamethasone treated group. Our study at the resolution of single cells showed that there is a mixed population of cells in each patient at different stages of MM progression and these cells can be organized into four different subgroups (L1 to L4). Consistent overexpression of the 44 genes from L1 to L4 groups is associated with patient outcome and treatment response. Our results show that oxidative phosphorylation, Myc target, and mTORC1 signaling genes are significant pathways for MM progression and affect MM prognosis and treatment stratification.",
+            "GseNumOfSamples": "597",
+            "SuppFile": "TXT",
+            "GdsType": "Expression profiling by high throughput sequencing",
+            "GplTitle": "Illumina HiSeq 2500 (Homo sapiens)",
+            "TechType": "high-throughput sequencing",
+            "Contributors": "Jin Jen, Ying Li, Lintao Bi, Vincent Rajkumar, Alexej Abyzov, Linda Baughn, Shaji Kumar, Amit Mitra, Jie Sun, Andre van Wijnen, Brian Van Ness, Jin Jang",
+            "Organizations": "Mayo Clinic",
+            "Countries": "USA",
+            "LibStrategy": "RNA-Seq",
+            "LibraryName": "",
+            "LibrarySource": "TRANSCRIPTOMIC",
+            "LibrarySelection": "cDNA",
+            "LibraryLayout": "PAIRED",
+            "CellPopulations": "",
+            "AmlDiseaseStage": "",
+            "GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118900"
+        },
+        {
+            "GseTitle": "Single cell dissection of plasma cell heterogeneity in symptomatic and asymptomatic myeloma",
+            "Tissue": [
+                "blood"
+            ],
+            "Disease": [
+                "cancer - plasma cells"
+            ],
+            "CellType": [],
+            "NumOfCells": "24986",
+            "Technology": [
+                "single cell - Illumina NextSeq 500",
+                "single cell - RNA-seq"
+            ],
+            "Public/Cgen": "Public",
+            "Identifier": "GSE117156",
+            "Date": "12/7/2018",
+            "GsmStatistics": [
+                "marsseq_mm08_postrx_bmpc#2 - 0.7407407407407407",
+                "marsseq_mm06_circpc#1 - 0.7407407407407407",
+                "marsseq_mm02_bmpc#4 - 0.7407407407407407",
+                "marsseq_mm03_postrx_bmpc#1 - 0.7407407407407407",
+                "marsseq_hip02_bmpc#2 - 0.7407407407407407",
+                "marsseq_mm07_postrx_pbmc#2 - 0.7407407407407407",
+                "marsseq_hip02_bmpc#1 - 0.7407407407407407",
+                "marsseq_smm02_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm01_circpc#2 - 0.7407407407407407",
+                "marsseq_mm04_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm01_bmpc#3 - 0.7407407407407407",
+                "marsseq_mm14_postrx_bmpc#2 - 0.7407407407407407",
+                "marsseq_al02_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm05_bmpc#1 - 0.7407407407407407",
+                "marsseq_hip10_bmpc#2 - 0.7407407407407407",
+                "marsseq_hip01_bmpc#1 - 0.7407407407407407",
+                "marsseq_hip10_bmpc#1 - 0.7407407407407407",
+                "marsseq_al01_postrx_bmpc#1 - 0.7407407407407407",
+                "marsseq_mgus07_bmpc#1 - 0.7407407407407407",
+                "marsseq_hip07_bmpc#1 - 0.7407407407407407",
+                "marsseq_hip10_circpc#1 - 0.7407407407407407",
+                "marsseq_mgus05_bmpc#2 - 0.7407407407407407",
+                "marsseq_mm04_bmpc#3 - 0.7407407407407407",
+                "marsseq_mm14_postrx_bmpc#4 - 0.7407407407407407",
+                "marsseq_hip06_bmpc#1 - 0.7407407407407407",
+                "marsseq_mgus02_circpc#1 - 0.7407407407407407",
+                "marsseq_hip04_bmpc#2 - 0.7407407407407407",
+                "marsseq_mm08_postrx_bmpc#3 - 0.7407407407407407",
+                "marsseq_mm08_postrx_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm13_postrx_bmpc#2 - 0.7407407407407407",
+                "marsseq_mgus03_circpc#1 - 0.7407407407407407",
+                "marsseq_hip03_bmpc#3 - 0.7407407407407407",
+                "marsseq_mm03_postrx_bmpc#3 - 0.7407407407407407",
+                "marsseq_hip05_bmpc#3 - 0.7407407407407407",
+                "marsseq_al04_bmpc#3 - 0.7407407407407407",
+                "marsseq_mm06_bmpc#1 - 0.7407407407407407",
+                "marsseq_hip05_bmpc#2 - 0.7407407407407407",
+                "marsseq_mgus05_bmpc#1 - 0.7407407407407407",
+                "marsseq_smm02_bmpc#3 - 0.7407407407407407",
+                "marsseq_mm07_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm03_bmpc#2 - 0.7407407407407407",
+                "marsseq_mm14_postrx_bmpc#1 - 0.7407407407407407",
+                "marsseq_hip08_bmpc#2 - 0.7407407407407407",
+                "marsseq_mgus02_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm13_postrx_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm04_bmpc#2 - 0.7407407407407407",
+                "marsseq_mgus01_bmpc#2 - 0.7407407407407407",
+                "marsseq_mm06_bmpc#2 - 0.7407407407407407",
+                "marsseq_mm13_postrx_bmpc#3 - 0.7407407407407407",
+                "marsseq_hip03_bmpc#2 - 0.7407407407407407",
+                "marsseq_hip03_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm12_bmpc#2 - 0.7407407407407407",
+                "marsseq_smm04_circpc#1 - 0.7407407407407407",
+                "marsseq_mm01_circpc#1 - 0.7407407407407407",
+                "marsseq_smm05_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm09_bmpc#2 - 0.7407407407407407",
+                "marsseq_hip09_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm06_bmpc#3 - 0.7407407407407407",
+                "marsseq_mgus01_bmpc#1 - 0.7407407407407407",
+                "marsseq_al02_circpc#1 - 0.7407407407407407",
+                "marsseq_mm01_bmpc#4 - 0.7407407407407407",
+                "marsseq_hip05_bmpc#1 - 0.7407407407407407",
+                "marsseq_hip09_circpc#1 - 0.7407407407407407",
+                "marsseq_hip08_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm14_postrx_bmpc#3 - 0.7407407407407407",
+                "marsseq_mm04_bmpc#4 - 0.7407407407407407",
+                "marsseq_al04_bmpc#2 - 0.7407407407407407",
+                "marsseq_mm07_postrx_pbmc#1 - 0.7407407407407407",
+                "marsseq_smm02_bmpc#4 - 0.7407407407407407",
+                "marsseq_smm03_circpc#1 - 0.7407407407407407",
+                "marsseq_mm08_bmpc#2 - 0.7407407407407407",
+                "marsseq_hip01_bmpc#2 - 0.7407407407407407",
+                "marsseq_mm07_postrx_pbmc#4 - 0.7407407407407407",
+                "marsseq_mm03_bmpc#1 - 0.7407407407407407",
+                "marsseq_smm02_bmpc#2 - 0.7407407407407407",
+                "marsseq_mgus04_bmpc#2 - 0.7407407407407407",
+                "marsseq_al04_circpc#1 - 0.7407407407407407",
+                "marsseq_mgus05_circpc#1 - 0.7407407407407407",
+                "marsseq_smm03_bmpc#1 - 0.7407407407407407",
+                "marsseq_mgus07_bmpc#2 - 0.7407407407407407",
+                "marsseq_mm01_bmpc#2 - 0.7407407407407407",
+                "marsseq_mm11_circpc#1 - 0.7407407407407407",
+                "marsseq_hip01_bmpc#3 - 0.7407407407407407",
+                "marsseq_al03_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm09_bmpc#3 - 0.7407407407407407",
+                "marsseq_mm07_circpc#1 - 0.7407407407407407",
+                "marsseq_smm05_bmpc#2 - 0.7407407407407407",
+                "marsseq_mm09_bmpc#4 - 0.7407407407407407",
+                "marsseq_mm01_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm10_bmpc#1 - 0.7407407407407407",
+                "marsseq_hip11_bmpc#2 - 0.7407407407407407",
+                "marsseq_mgus07_bmpc#5 - 0.7407407407407407",
+                "marsseq_al04_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm12_bmpc#3 - 0.7407407407407407",
+                "marsseq_mm02_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm08_bmpc#1 - 0.7407407407407407",
+                "marsseq_smm04_bmpc#1 - 0.7407407407407407",
+                "marsseq_al01_bmpc#2 - 0.7407407407407407",
+                "marsseq_smm06_bmpc#1 - 0.7407407407407407",
+                "marsseq_hip11_bmpc#1 - 0.7407407407407407",
+                "marsseq_al01_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm02_bmpc#2 - 0.7407407407407407",
+                "marsseq_smm02_circpc#1 - 0.7407407407407407",
+                "marsseq_mm08_circpc#1 - 0.7407407407407407",
+                "marsseq_mm06_bmpc#4 - 0.7407407407407407",
+                "marsseq_mm02_bmpc#5 - 0.7407407407407407",
+                "marsseq_mgus07_bmpc#4 - 0.7407407407407407",
+                "marsseq_smm05_circpc#1 - 0.7407407407407407",
+                "marsseq_mm11_bmpc#1 - 0.7407407407407407",
+                "marsseq_mgus07_bmpc#3 - 0.7407407407407407",
+                "marsseq_al01_postrx_bmpc#3 - 0.7407407407407407",
+                "marsseq_mgus03_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm03_circpc#1 - 0.7407407407407407",
+                "marsseq_mm01_postrx_bmpc#2 - 0.7407407407407407",
+                "marsseq_mm03_postrx_bmpc#2 - 0.7407407407407407",
+                "marsseq_smm01_bmpc#2 - 0.7407407407407407",
+                "marsseq_mgus02_bmpc#2 - 0.7407407407407407",
+                "marsseq_mm11_bmpc#2 - 0.7407407407407407",
+                "marsseq_al03_circpc#1 - 0.7407407407407407",
+                "marsseq_mm12_bmpc#1 - 0.7407407407407407",
+                "marsseq_mgus01_circpc#1 - 0.7407407407407407",
+                "marsseq_mm09_bmpc#1 - 0.7407407407407407",
+                "marsseq_mm02_bmpc#3 - 0.7407407407407407",
+                "marsseq_smm01_circpc#1 - 0.7407407407407407",
+                "marsseq_mm07_postrx_pbmc#3 - 0.7407407407407407",
+                "marsseq_mgus04_bmpc#1 - 0.7407407407407407",
+                "marsseq_smm06_circpc#1 - 0.7407407407407407",
+                "marsseq_hip04_bmpc#1 - 0.7407407407407407",
+                "marsseq_mgus06_bmpc#1 - 0.7407407407407407",
+                "marsseq_al01_bmpc#3 - 0.7407407407407407",
+                "marsseq_smm01_bmpc#1 - 0.7407407407407407",
+                "marsseq_al03_bmpc#2 - 0.7407407407407407",
+                "marsseq_smm02_bmpc#5 - 0.7407407407407407",
+                "marsseq_mm01_postrx_bmpc#1 - 0.7407407407407407",
+                "marsseq_al01_postrx_bmpc#2 - 0.7407407407407407"
+            ],
+            "Species": [
+                "Homo sapiens"
+            ],
+            "Field": "GEO Accession",
+            "Ids": [
+                "200117156",
+                "100018573",
+                "303272502",
+                "303272501",
+                "303272500",
+                "303272499",
+                "303272498",
+                "303272497",
+                "303272496",
+                "303272495",
+                "303272494",
+                "303272493",
+                "303272492",
+                "303272491",
+                "303272490",
+                "303272489",
+                "303272488",
+                "303272487",
+                "303272486",
+                "303272485"
+            ],
+            "Count": "137",
+            "PubmedIDs": [
+                "30523328"
+            ],
+            "GseSummary": "Multiple myeloma (MM), a plasma cell (PC) malignancy, is the second most common blood cancer. Despite extensive research, disease heterogeneity within and between patients is poorly characterized, hampering efforts for early diagnosis and improved treatments. Here, we apply single cell RNA-seq to study the heterogeneity of 40 individuals along the MM progression spectrum. We define malignant PC at single cell resolution, demonstrating high inter-patient variability that can be explained by expression of known MM drivers and additional putative factors. Within newly diagnosed patients, we identify extensive sub-clonal structures for 10/29 patients. In asymptomatic patients with early disease and in minimal residual disease post-treatment, we detect tumor PC for a subset of the patients, with the same drivers of active myeloma. Single cell analysis of rare circulating tumor cells (CTC) allows detection of malignant PC, which reflect the BM disease. Our work establishes scRNA-seq for dissecting blood malignancies and devising detailed molecular characterization of tumor cells in symptomatic and asymptomatic patients.",
+            "GseNumOfSamples": "135",
+            "SuppFile": "TXT",
+            "GdsType": "Expression profiling by high throughput sequencing",
+            "GplTitle": "Illumina NextSeq 500 (Homo sapiens)",
+            "TechType": "high-throughput sequencing",
+            "Contributors": "Assaf Weiner, Guy Ledergor, Elli Papaemmanuil, Ido Amit",
+            "Organizations": "Weizmann Institute of Science",
+            "Countries": "Israel",
+            "LibStrategy": "RNA-Seq",
+            "LibraryName": "",
+            "LibrarySource": "TRANSCRIPTOMIC",
+            "LibrarySelection": "cDNA",
+            "LibraryLayout": "SINGLE",
+            "CellPopulations": "",
+            "AmlDiseaseStage": "",
+            "GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117156"
+        },
+        {
+            "GseTitle": "Defining T cell states associated with response to checkpoint immunotherapy in melanoma",
+            "Tissue": [
+                "skin"
+            ],
+            "Disease": [
+                "cancer - melanoma"
+            ],
+            "CellType": [],
+            "NumOfCells": "16291",
+            "Technology": [
+                "single cell - Illumina NextSeq 500",
+                "single cell - RNA-seq"
+            ],
+            "Public/Cgen": "Public",
+            "Identifier": "GSE120575",
+            "Date": "10/5/2018",
+            "GsmStatistics": [
+                "melanoma single cell - 100.0"
+            ],
+            "Species": [
+                "Homo sapiens"
+            ],
+            "Field": "GEO Accession",
+            "Ids": [
+                "200120575",
+                "100018573",
+                "303403601",
+                "303403600",
+                "303403599",
+                "303403598",
+                "303403597",
+                "303403596",
+                "303403595",
+                "303403594",
+                "303403593",
+                "303403592",
+                "303403591",
+                "303403590",
+                "303403589",
+                "303403588",
+                "303403587",
+                "303403586",
+                "303403585",
+                "303403584"
+            ],
+            "Count": "50",
+            "PubmedIDs": [
+                "30388456"
+            ],
+            "GseSummary": "we profiled 16,291 immune cells from 48 tumor samples of melanoma patients treated with checkpoint inhibitors, using single-cell transcriptomics.",
+            "GseNumOfSamples": "48",
+            "SuppFile": "TXT",
+            "GdsType": "Expression profiling by high throughput sequencing",
+            "GplTitle": "Illumina NextSeq 500 (Homo sapiens)",
+            "TechType": "high-throughput sequencing",
+            "Contributors": "Moshe Sade-Feldman, Keren Yizhak",
+            "Organizations": "Broad Institute of MIT and Harvard",
+            "Countries": "USA",
+            "LibStrategy": "",
+            "LibraryName": "",
+            "LibrarySource": "",
+            "LibrarySelection": "",
+            "LibraryLayout": "",
+            "CellPopulations": "",
+            "AmlDiseaseStage": "",
+            "GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120575"
+        },
+        {
+            "GseTitle": "Single-Cell Transcriptomic Analysis of Human Lung Reveals Complex Multicellular Changes During Pulmonary Fibrosis",
+            "Tissue": [
+                "lung"
+            ],
+            "Disease": [
+                "cancer - lung"
+            ],
+            "CellType": [
+                "stem cells - airway",
+                "lung cells - epithelial"
+            ],
+            "NumOfCells": "76070",
+            "Technology": [
+                "single cell - Illumina NextSeq 500",
+                "single cell - RNA-seq"
+            ],
+            "Public/Cgen": "Public",
+            "Identifier": "GSE121611",
+            "Date": "12/15/2018",
+            "GsmStatistics": [
+                "lung - 100.0"
+            ],
+            "Species": [
+                "Mus musculus"
+            ],
+            "Field": "GEO Accession",
+            "Ids": [
+                "200121611",
+                "100019057",
+                "303440072",
+                "303440071"
+            ],
+            "Count": "4",
+            "PubmedIDs": [
+                "30554520"
+            ],
+            "GseSummary": "Pulmonary fibrosis is a heterogeneous syndrome in which fibrotic scar replaces normal lung tissue. We performed massively parallel single-cell RNA-Seq on lung tissue from eight lung transplant donors and eight patients with pulmonary fibrosis. Combined with in situ RNA hybridization, with amplification, these data provide a molecular atlas of disease pathobiology. We identified a distinct, novel population of profibrotic alveolar macrophages exclusively in patients with fibrosis. Within epithelial cells, the expression of genes involved in Wnt secretion and response was restricted to non-overlapping cells. We identified rare cell populations including airway stem cells and senescent cells emerging during pulmonary fibrosis. Analysis of a cryobiopsy specimen from a patient with early disease supports the clinical application of single-cell RNA-Seq to develop personalized approaches to therapy. This dataset contains single-cell RNA-seq data generated from the lungs of the two naive mice, human data for this study has been submitted to dbGap/SRA.",
+            "GseNumOfSamples": "2",
+            "SuppFile": "H5, MTX, TSV",
+            "GdsType": "Expression profiling by high throughput sequencing",
+            "GplTitle": "Illumina NextSeq 500 (Mus musculus)",
+            "TechType": "high-throughput sequencing",
+            "Contributors": "Alexandra McQuattie, Nikita Joshi, Kishore Anekalla, James Walter, GR Budinger, Paul Reyfman, Alexander Misharin",
+            "Organizations": "Northwestern University",
+            "Countries": "USA",
+            "LibStrategy": "RNA-Seq",
+            "LibraryName": "",
+            "LibrarySource": "TRANSCRIPTOMIC",
+            "LibrarySelection": "cDNA",
+            "LibraryLayout": "PAIRED",
+            "CellPopulations": "",
+            "AmlDiseaseStage": "",
+            "GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121611"
+        },
+        {
+            "GseTitle": "Dysfunctional CD8+ T cells form a proliferative, dynamically regulated compartment within human melanoma [scRNA-seq]",
+            "Tissue": [
+                "skin"
+            ],
+            "Disease": [
+                "cancer - melanoma"
+            ],
+            "CellType": [
+                "t cells - cd8+",
+                "t cells - cd4+"
+            ],
+            "NumOfCells": "47676",
+            "Technology": [
+                "single cell - Illumina NextSeq 500",
+                "single cell - RNA-seq"
+            ],
+            "Public/Cgen": "Public",
+            "Identifier": "GSE123139",
+            "Date": "12/27/2018",
+            "GsmStatistics": [
+                "immune cells sorted from melanoma tumors - 100.0"
+            ],
+            "Species": [
+                "Homo sapiens"
+            ],
+            "Field": "GEO Accession",
+            "Ids": [
+                "200123139",
+                "100018573",
+                "303496488",
+                "303496487",
+                "303496486",
+                "303496485",
+                "303496484",
+                "303496483",
+                "303496482",
+                "303496481",
+                "303496480",
+                "303496479",
+                "303496478",
+                "303496477",
+                "303496476",
+                "303496475",
+                "303496474",
+                "303496473",
+                "303496472",
+                "303496471"
+            ],
+            "Count": "206",
+            "PubmedIDs": [
+                "30595452"
+            ],
+            "GseSummary": "Tumor immune cell compositions play a major role in response to immunotherapy but the heterogeneity and dynamics of immune infiltrates in human cancer lesions remain poorly characterized. Here we identify conserved intratumoral CD4 and CD8 T cell behaviors in scRNA-seq data from 25 melanoma patients. We discover a large population of CD8 T cells showing continuous progression from an early effector \u201ctransitional\u201d into a dysfunctional T cell state. CD8 T cells that express a complete cytotoxic gene set are rare, and TCR sharing data suggest their independence from the transitional and dysfunctional cell states. Notably, we demonstrate that dysfunctional T cells are the major intratumoral proliferating immune cell compartment and that the intensity of the dysfunctional signature is associated with tumor-reactivity. Our data demonstrate that CD8 T cells previously defined as exhausted, are in fact a highly proliferating, clonal and dynamically differentiating cell population within the human tumor microenvironment.",
+            "GseNumOfSamples": "204",
+            "SuppFile": "TXT",
+            "GdsType": "Expression profiling by high throughput sequencing",
+            "GplTitle": "Illumina NextSeq 500 (Homo sapiens)",
+            "TechType": "high-throughput sequencing",
+            "Contributors": "John Haanen, Yaniv Lubling, Hanjie Li, Christian Blank, Ido Yofe, Aviezer Lifshitz, Akhiad Bercovich, Dikla Gelbard Solodkin, Ton Schumacher, Alexander van Akkooi, Marlous van den Braber, Yael Baran, Ido Amit, Lisette Rozeman, Anne van der Leun, Hugo Horlings, Eyal David, Amos Tanay",
+            "Organizations": "Weizmann Institute of Science",
+            "Countries": "Israel",
+            "LibStrategy": "",
+            "LibraryName": "",
+            "LibrarySource": "",
+            "LibrarySelection": "",
+            "LibraryLayout": "",
+            "CellPopulations": "",
+            "AmlDiseaseStage": "",
+            "GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123139"
+        },
+        {
+            "GseTitle": "Single-cell RNA sequencing reveals compromised immune microenvironment in precursor stages of multiple myeloma",
+            "Tissue": [
+                "bone marrow"
+            ],
+            "Disease": [
+                "cancer - bone marrow"
+            ],
+            "CellType": [
+                "t cells - memory cytotoxic",
+                "monocytes - cd14+"
+            ],
+            "NumOfCells": "27796",
+            "Technology": [
+                "single cell - RNA-seq",
+                "single cell - Illumina HiSeq 2500"
+            ],
+            "Public/Cgen": "Public",
+            "Identifier": "GSE124310",
+            "Date": "4/28/2020",
+            "GsmStatistics": [
+                "bone marrow - 100.0"
+            ],
+            "Species": [
+                "Homo sapiens"
+            ],
+            "Field": "GEO Accession",
+            "Ids": [
+                "200124310",
+                "100016791",
+                "303528818",
+                "303528816",
+                "303528814",
+                "303528812",
+                "303528810",
+                "303528809",
+                "303528807",
+                "303528804",
+                "303528802",
+                "303528800",
+                "303528798",
+                "303528796",
+                "303528794",
+                "303528791",
+                "303528789",
+                "303528787",
+                "303528785",
+                "303528783"
+            ],
+            "Count": "34",
+            "PubmedIDs": [
+                "33409501"
+            ],
+            "GseSummary": "Precursor states of Multiple Myeloma (MM) and its native tumor microenvironment need in-depth molecular characterization to better stratify and treat patients at risk. Using single-cell RNA sequencing of bone marrow cells from precursor stages, MGUS and smoldering myeloma (SMM), to full-blown MM alongside healthy donors, we demonstrate early immune changes during patient progression. We find NK cell abundance is frequently increased in early stages, and associated with altered chemokine receptor expression. As early as SMM, we show loss of GrK+ memory cytotoxic T-cells, and show their critical role in MM immunosurveillance in mouse models. Finally, we report MHC class II dysregulation in CD14+ monocytes, which results in T cell suppression in vitro. These results provide a comprehensive map of immune changes at play over the evolution of pre-malignant MM, which will help develop strategies for immune-based patient stratification.",
+            "GseNumOfSamples": "32",
+            "SuppFile": "TAR",
+            "GdsType": "Expression profiling by high throughput sequencing",
+            "GplTitle": "Illumina HiSeq 2500 (Homo sapiens)",
+            "TechType": "high-throughput sequencing",
+            "Contributors": "Gad Getz, Irene Ghobrial",
+            "Organizations": "Dana-Farber Cancer Institute",
+            "Countries": "USA",
+            "LibStrategy": "",
+            "LibraryName": "",
+            "LibrarySource": "",
+            "LibrarySelection": "",
+            "LibraryLayout": "",
+            "CellPopulations": "",
+            "AmlDiseaseStage": "",
+            "GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE124310"
+        },
+        {
+            "GseTitle": "Tumor cell biodiversity drives microenvironmental reprogramming in liver cancer",
+            "Tissue": [
+                "liver"
+            ],
+            "Disease": [
+                "cancer - liver"
+            ],
+            "CellType": [
+                "carcinoma - hepatocellular",
+                "cholangiocarcinoma - intrahepatic"
+            ],
+            "NumOfCells": "9946",
+            "Technology": [
+                "single cell - Illumina NextSeq 500",
+                "single cell - RNA-seq"
+            ],
+            "Public/Cgen": "Public",
+            "Identifier": "GSE125449",
+            "Date": "10/6/2019",
+            "GsmStatistics": [
+                "primary liver cancer single-cell - 100.0"
+            ],
+            "Species": [
+                "Homo sapiens"
+            ],
+            "Field": "GEO Accession",
+            "Ids": [
+                "200125449",
+                "100020301",
+                "100018573",
+                "304050110",
+                "304050108",
+                "304050106",
+                "304050104",
+                "304050102",
+                "304050100",
+                "304050098",
+                "304050096",
+                "304050095",
+                "304050094",
+                "304050093",
+                "304050092",
+                "304050091",
+                "304050090",
+                "304050089",
+                "304050088",
+                "304050087"
+            ],
+            "Count": "22",
+            "PubmedIDs": [
+                "31588021"
+            ],
+            "GseSummary": "Single-cell transcriptome profiling of liver cancer biospecimens from nine hepatocellular carcinoma and ten intrahepatic cholangiocarcinoma patients.",
+            "GseNumOfSamples": "19",
+            "SuppFile": "MTX, TSV, TXT",
+            "GdsType": "Expression profiling by high throughput sequencing",
+            "GplTitle": "Illumina NextSeq 500 (Homo sapiens)",
+            "TechType": "high-throughput sequencing",
+            "Contributors": "Xin Wang",
+            "Organizations": "National Cancer Institute",
+            "Countries": "USA",
+            "LibStrategy": "",
+            "LibraryName": "",
+            "LibrarySource": "",
+            "LibrarySelection": "",
+            "LibraryLayout": "",
+            "CellPopulations": "",
+            "AmlDiseaseStage": "",
+            "GseUrl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125449"
+        }
+    ]
 }
