@@ -1,7 +1,7 @@
 {"in": [{"GseTitle": "Dissecting the human liver cellular landscape by single cell RNA-seq reveals novel intrahepatic monocyte/ macrophage populations",
 "Tissue": ["liver"],
 "Disease": ["cancer - liver"],
-"CellType": [],
+"Cell Type": [],
 "NumOfCells": "8439",
 "Technology": [
 "single cell - RNA-seq",
@@ -56,7 +56,7 @@
 "Disease": [
 "cancer - colorectal"
 ],
-"CellType": [
+"Cell Type": [
 "t cells - 20 t cell subsets"
 ],
 "NumOfCells": "8530",
@@ -122,7 +122,7 @@
 "Disease": [
 "cancer - breast"
 ],
-"CellType": [
+"Cell Type": [
 "t cells - cd3+"
 ],
 "NumOfCells": "6302",
@@ -176,7 +176,7 @@
 "Disease": [
 "cancer - stromal cells"
 ],
-"CellType": [
+"Cell Type": [
 "lymph node - peripheral",
 "stromal cells - non-endothelial"
 ],
